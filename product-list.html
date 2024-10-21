@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/utilities.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/button.css">
+    <link rel="stylesheet" href="css/section.css">
+    <link rel="stylesheet" href="css/product-cart.css">
+
+
+</head>
+<body>
+    <header class="header">
+        <div class="header_top">
+            <div class="header_top--wrapper container">
+                <span class="btn btn-back">Trở về trang chủ</span>
+                <div class="user-side">
+                    <span>Kênh người bán</span>
+                    <span class="btn btn-login">Đăng ký</span>
+                </div>
+            </div>
+        </div>
+        <nav class="header_bottom container">
+            <div class="header_bottom--wrapper container flex flex-between">
+                <div class="header_bottom_left flex">
+                    <div class="header_logo">
+                        <img src="assets/images/logo.svg" alt="Logo" width="110" height="32">
+
+                    </div>
+                    <div class="search-container">
+                        <img src="assets/images/search.svg" alt="Logo" width="20" height="20">
+                        <input type="text" class="search-bar" placeholder="Search...">
+                        <button class="custom-box">
+                            <span>⌘K</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="header_bottom_right">
+                    <div class="service_group flex ">
+                        <div class="service_group___item  btn btn-support">
+                            <img src="assets/images/report.svg" alt="img" width="20" height="20">
+                            Hỗ trợ
+                        </div>
+                        <div class="service_group___item btn btn-noti">
+                            <img src="assets/images/notifications.svg" alt="img" width="20" height="20">
+                            Thông báo
+                        </div>
+                    </div>
+                    <div class="btn_cart btn">
+                        <img src="assets/images/shopping_cart.svg" alt="img" width="20" height="20">
+                    </div>
+                    <div class="btn_avatar btn">
+                        <img src="assets/images/image.svg" alt="img" width="40" height="40">
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+
+    <main class="flex-column gap-6 py-9">
+        <section class="product-detail-section container flex-column gap-6">
+            <div class="thumnail-section">
+                <div class="flex-column gap-10">
+                    <div><img src="assets/images/product2.svg" alt="Thumbnail 1" class="thumbnail" data-img="assets/images/product2.svg"></div>
+                    <div><img src="assets/images/product2.svg" alt="Thumbnail 2" class="thumbnail" data-img="assets/images/product2.svg"></div>
+                    <div><img src="assets/images/product2.svg" alt="Thumbnail 3" class="thumbnail" data-img="assets/images/product2.svg"></div>
+                    <div><img src="assets/images/product2.svg" alt="Thumbnail 4" class="thumbnail" data-img="assets/images/product2.svg"></div>
+                    <div><img src="assets/images/product2.svg" alt="Thumbnail 5" class="thumbnail" data-img="assets/images/product2.svg"></div>
+                </div>
+                <div class="current-img">
+                    <img src="assets/images/product1.svg" alt="Current Image" id="currentImage">
+                </div>
+            </div>
+            <div class="detail-section flex flex-column gap-4">
+                <div class="detail-title flex-column gap-3">
+                    <h1>
+                        [Sỉ-Rẻ] Sữa Rửa Mặt Simple Mẫu Mới 150ml - Dịu Nhẹ Cho Da  – HV104 [Lẻ-Sỉ]
+                    </h1>
+                    <div class="rating-group flex gap-4">
+                        <div class="rating flex">
+                            <img src="/assets/images/star_purple500.svg" alt="rating">
+                            <img src="/assets/images/star_purple500.svg" alt="rating">
+                            <img src="/assets/images/star_purple500.svg" alt="rating">
+                            <img src="/assets/images/star_purple500.svg" alt="rating">
+                            <img src="/assets/images/star_purple500.svg" alt="rating">
+                        </div>
+                        <p>4.5 ∙ 5.2K Ratings</p>
+                        <span>18 Lượt đánh giá</span>
+                    </div>
+                    <div class="detail-price">
+                        <span class="real-price">436.000</span>
+                        <span class="discount-price"> 200.000</span>
+                        <span class="price-sale" style="font-size: 14px;">-10%</span>
+                    </div>
+                </div>
+                <div class="detail-title flex-column gap-6">
+                    <div class="voucher-group">
+                        <span class="voucher-group__title">Mã giảm giá</span>
+                        <div class="voucher-group__list">
+                            <span>Giảm 20%</span>
+                            <span>Giảm 30%</span>
+                            <span>Giảm 40%</span>
+                            <span>Giảm 50%</span>
+                        </div>
+                    </div>
+                    <div class="express-group">
+                        <span class="express-group__title">Vẫn chuyển</span>
+                        <div class="flex-column">
+                            <div>Miễn phí vận chuyển</div>
+                            <div>Vận chuyển từ <span class="underline px-1">Hà Nội</span> đến <span class="px-1 underline">Hồ Chí Minh</span></div>
+                            <div>Phí vận chuyển <span class="px-1">200.000</span></div>
+                        </div>
+                    </div>
+                    <div class="style-group">
+                        <span class="style-group__title">Lựa chọn</span>
+                        <div class="style-group__list">
+                            <span>
+                                <img src="/assets/images/selectproduct.svg" alt="">
+                                #321654
+                            </span>
+                            <span>
+                                <img src="/assets/images/selectproduct.svg" alt="">
+                                #321654</span>
+                            <span> <img src="/assets/images/selectproduct.svg" alt="">#321654</span>
+                            <span> <img src="/assets/images/selectproduct.svg" alt="">#321654</span>
+                            <span> <img src="/assets/images/selectproduct.svg" alt="">#321654</span>
+                            <span> <img src="/assets/images/selectproduct.svg" alt="">#321654</span>
+                            <span> <img src="/assets/images/selectproduct.svg" alt="">#321654</span>
+                            <span> <img src="/assets/images/selectproduct.svg" alt="">#321654</span>
+                            <span> <img src="/assets/images/selectproduct.svg" alt="">#321654</span>
+                        </div>
+                    </div>
+                    <div class="quanlity-group">
+                        <span class="quanlity-group__title">Số lượng</span>
+                        <div class="quantity-btn">
+                            <button class="btn-decrement">-</button>
+                            <span class="quantity">1</span>
+                            <button class="btn-increment">+</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <footer>
+        <div class="footer-wrapper container">
+            <div class="flex-between">
+                    <div class="flex-between gap-8 footer-info-list">
+                        <div class="footer-info-item">
+                            <h3>Company</h3>
+                            <div class="flex-column gap-4">
+                                <a class="footer-links" href="/">About us</a>
+                                <a class="footer-links" href="/">Contact us</a>
+                                <a class="footer-links" href="/"> Careers</a>
+                                <a class="footer-links" href="/"> Press</a>
+                            </div>
+                        </div>
+                        <div class="footer-info-item">
+                            <h3>Product</h3>
+                            <div class="flex-column gap-4">
+                                <a class="footer-links" href="/">Features</a>
+                                <a class="footer-links" href="/">Pricing</a>
+                                <a class="footer-links" href="/"> News</a>
+                                <a class="footer-links" href="/"> Help desk</a>
+                                <a class="footer-links" href="/"> Support</a>
+    
+                            </div>
+                        </div>
+                        <div class="footer-info-item">
+                            <h3>Legal</h3>
+                            <div class="flex-column gap-4">
+                                <a class="footer-links" href="/"> Privacy Policy</a>
+                                <a class="footer-links" href="/">Terms & Conditions</a>
+    
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="flex-column">
+                        <div class="footer-info-item">
+                            <h3>Download Our App</h3>
+                            <div class="flex-column gap-4">
+                                <a href="/">
+                                    <img src="/assets/images/App Store.svg" alt="icon">
+                                </a>
+                                <a href="/">
+                                    <img src="/assets/images/Play Store.svg" alt="icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="flex-column">
+                <hr style="border: none; height: 1px; background-color: #D2D6DB; margin-bottom: 30px;">
+                
+                <div class="flex-between mt-3">
+                    <p class="path flex-center gap-2">© 2024 Copyright, All Right Reserved, Made by Seju_ui_ux with <img src="/assets/images/Path.svg" alt=""></p>
+                    <div class="social-group">
+                        <a href="/">
+                            <img src="/assets/images/logo-twitter.svg" alt="logo-social">
+                        </a>
+                        <a href="/">
+                            <img src="/assets/images/logo-facebook.svg" alt="logo-social">
+                        </a>
+                        <a href="/">
+                            <img src="/assets/images/logo-instagram.svg" alt="logo-social">
+
+                        </a>
+                        <a href="/">
+                            <img src="/assets/images/logo-linkedin.svg" alt="logo-social">
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+
+</html>

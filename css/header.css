@@ -1,0 +1,148 @@
+/* Định dạng cho header */
+header {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.header_top {
+    background-color: #0D121C;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 32px;
+}
+.header_top--wrapper {
+    background-color: #0D121C;
+    color: white;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header_top--wrapper .user-side {
+    display: flex;
+    gap: 24px;
+}
+
+.header_bottom {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_bottom--wrapper {
+    width: 100%;
+    gap: 24px;
+}
+
+.header_bottom_left {
+    align-items: center;
+    gap: 24px;
+}
+
+/* Định dạng cho thanh tìm kiếm */
+.search-container {
+    width: 524px;
+    height: 36px;
+    padding: 8px 20px;
+    background-color: #F3F4F6; /* Màu nền */
+    border-radius: 8px; /* Điều chỉnh border-radius tùy theo var(--spacing-md) */
+    border: 1px solid #F3F4F6; /* Chỉ viền dưới */
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    position: relative;
+}
+
+.search-bar {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding: 0;
+    background-color: #F3F4F6;
+    opacity: 1; /* Đảm bảo hiển thị */
+    font-size: 14px;
+}
+
+.search-bar::placeholder {
+    color: #9CA3AF; /* Màu placeholder */
+}
+
+.search-bar:focus {
+    outline: none;
+}
+
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+   
+    text-decoration: none;
+}
+.custom-box {
+    width: auto; 
+    height: auto;
+    padding: 2px 4px; 
+    background-color: #FFFFFF; 
+    border-radius: 4px;
+    border: 1px solid #F3F4F6; 
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    opacity: 1;
+    cursor: pointer;
+}
+.custom-box span {
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+    color: #9DA4AE;
+}
+
+
+/* Right */
+
+.header_bottom_right {
+    display: flex;
+    gap: 24px;
+    height: 44px;
+    align-items: center;
+}
+
+.service_group {
+    gap: 12px;
+}
+
+.service_group .service_group___item {
+    width: auto;
+    min-width: 96px; 
+    height: 44px; 
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    color: #0D121C;
+    gap: 8px;
+}
+.btn_cart, .btn_avatar {
+    height: 44px;
+    width: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

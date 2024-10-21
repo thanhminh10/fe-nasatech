@@ -1,0 +1,372 @@
+.banner-section {
+    height: 600px;
+    width: 100%;
+    position: relative;
+}
+
+.banner_img {
+    background-image: url('/assets/images/banner.png');
+    background-size: cover;
+    background-position: center;
+    height: 514px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.advertisement-wrapper {
+    height: auto;
+    min-height: 142px;
+    padding: 12px 16px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+}
+
+.advertisement-item {
+    display: flex;
+    gap: 24px;
+    padding: 8px 12px;
+    background-color: #F9FAFB;
+    border-radius: 10px;
+    max-width: 352px;
+}
+
+.advertisement-item img {
+    width: 102px;
+    height: 102px;
+}
+
+.advertisement-item p {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #0D121C;
+
+}
+
+.advertisement-item span {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #0D121C;
+}
+
+.category-section {
+    gap: 24px;
+}
+
+.category-section .section-title {
+    color: #1C1F23;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 600;
+}
+
+.category-section .category-content {
+    background-color: white;
+    position: relative;
+}
+
+.category-content .category-content__item1,
+.category-content .category-content__item2 {
+    height: 200px;
+    padding: 24px;
+    gap: 8px;
+    box-shadow: 0px 1.5px 4px -1px #0A090B12;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.category-content .category-content__item2 {
+    border-top: #F3F4F6;
+}
+
+.category-cart {
+    flex: 1;
+    padding: 8px 12px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+/* Đặt chiều rộng tối đa cho mỗi item */
+.category-cart {
+    max-width: calc((100% / 6) - 8px);
+    /* Chiều rộng tối đa cho mỗi item */
+}
+
+.category-cart img {
+    height: 60px;
+    width: auto;
+}
+
+/* Sales Section */
+
+.sales-content {
+    padding: 32px 24px 24px 24px;
+    gap: 48px;
+    border-radius: 4px;
+    background-color: #F0F9FF;
+}
+
+.sales-content-item {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.flash-sale__title {
+    color: #F04438;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.hour,
+.min,
+.second {
+    width: 34px;
+    height: 28px;
+    padding: 4px;
+    gap: 10px;
+    border-radius: 2px;
+    background-color: #F04438;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    position: relative;
+    /* Để sử dụng pseudo-element */
+}
+
+/* banner 2 */
+
+.banner2-section {
+    height: 445px;
+    width: 100%;
+    position: relative;
+}
+
+
+.banner_img2 {
+    background-image: url('/assets/images/image 57.svg');
+    background-size: cover;
+    background-position: center;
+    height: 445px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.product-detail-section {
+    background-color: white;
+    padding: 16px 24px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 32px;
+}
+
+.product-detail-section .thumnail-section {
+    grid-column: span 6 / span 6;
+}
+
+.product-detail-section .detail-section {
+    grid-column: span 6 / span 6;
+    grid-column-start: 7;
+}
+
+
+.product-detail-section .thumnail-section {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.current-img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.current-img img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: inherit;
+}
+
+.thumbnail {
+    cursor: pointer;
+    width: 74px;
+    height: 74px;
+    object-fit: cover;
+}
+
+.detail-title h1 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.rating img {
+    width: 20px;
+    height: 20px;
+}
+
+.rating {
+    gap: 4px;
+    align-items: center;
+}
+
+.rating-group p {
+    font-size: 14px;
+    color: #0D121C;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+}
+
+.rating-group span {
+    text-decoration: underline;
+    color: #4D5761;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.detail-price {
+    background-color: #F0F9FF;
+    padding: 10px 12px;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    /* Căn giữa theo chiều dọc */
+}
+
+.detail-price .real-price {
+    font-size: 16px;
+    color: #D2D6DB;
+    /* Màu xám nhạt cho giá gốc */
+    text-decoration: line-through;
+    /* Gạch ngang giá gốc */
+    font-weight: 400;
+}
+
+.detail-price .discount-price {
+    font-size: 24px;
+    color: #3864FF;
+    /* Màu đỏ cho giá khuyến mãi */
+    font-weight: bold;
+    font-weight: 500;
+}
+
+.voucher-group,
+.express-group,
+.style-group,
+.quanlity-group
+{
+    display: flex;
+    gap: 24px;
+}
+
+.voucher-group__title,
+.express-group__title,
+.style-group__title,
+.quanlity-group__title{
+    color: #4D5761;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.voucher-group__list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+.style-group__list {
+    gap: 12px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.voucher-group__list span {
+    flex: 0 0 calc(33.33% - 16px);
+    background-color: #F0F9FF;
+    color: #2E90FA;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 8px;
+}
+.style-group__list span{
+    flex: 0 0 calc(33.33% - 12px);
+    border:1px solid #D2D6DB;
+    color: #9DA4AE;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 8px;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+.quantity-btn {
+    display: flex; 
+    align-items: center; 
+}
+
+.quantity {
+    font-size: 16px; /* Kích thước chữ cho số lượng */
+    width: 30px; /* Chiều rộng của span */
+    text-align: center; /* Căn giữa nội dung trong span */
+   
+    border-color:1px  solid #F3F4F6;
+}
+
+.btn-decrement, .btn-increment {
+    background-color: white;
+    color: #4D5761; 
+    border: none; 
+    border-radius: 4px;
+    width: 30px; 
+    height: 30px; 
+    cursor: pointer; 
+    font-size: 18px; 
+    border: 1px solid  #F3F4F6;
+}
+
+/* Nếu bạn chỉ muốn bo tròn góc trên bên trái, sử dụng thuộc tính sau: */
+.btn-decrement {
+    border-top-left-radius: 8px; /* Bo tròn góc trên bên trái */
+    border-bottom-left-radius:8px
+}
+
+.btn-increment {
+    border-top-right-radius: 8px; /* Bo tròn góc trên bên phải */
+    border-bottom-right-radius:8px;
+}
