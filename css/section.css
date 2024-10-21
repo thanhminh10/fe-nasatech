@@ -181,6 +181,18 @@
     gap: 32px;
 }
 
+.shop-info-section,
+.description-section {
+    background-color: white;
+    padding: 16px 24px;
+    gap: 32px;
+    display: flex;
+}
+
+.description-section {
+    gap: 16px;
+}
+
 .product-detail-section .thumnail-section {
     grid-column: span 6 / span 6;
 }
@@ -195,12 +207,14 @@
     display: flex;
     flex-direction: row;
     gap: 20px;
+    max-height: 418px;
 }
 
 .current-img {
     position: relative;
     width: 100%;
-    height: 100%;
+    height: auto;
+    max-height: 418px;
     border-radius: 8px;
     overflow: hidden;
 }
@@ -215,11 +229,28 @@
     border-radius: inherit;
 }
 
+.thumbnail-list {
+    height: 100%;
+    width: 79px;
+    justify-content: space-between;
+}
+
+.thumbnail-container {
+    position: relative;
+    width: 100%;
+    height: calc(418px / 6 - 10px);
+    /* Đã tính toán phép chia và trừ trực tiếp */
+    overflow: hidden;
+}
+
 .thumbnail {
-    cursor: pointer;
-    width: 74px;
-    height: 74px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
+    cursor: pointer;
 }
 
 .detail-title h1 {
@@ -282,8 +313,7 @@
 .voucher-group,
 .express-group,
 .style-group,
-.quanlity-group
-{
+.quanlity-group {
     display: flex;
     gap: 24px;
 }
@@ -291,17 +321,18 @@
 .voucher-group__title,
 .express-group__title,
 .style-group__title,
-.quanlity-group__title{
+.quanlity-group__title {
     color: #4D5761;
     font-size: 14px;
     font-weight: 400;
 }
 
-.voucher-group__list{
+.voucher-group__list {
     display: flex;
     flex-wrap: wrap;
     gap: 16px;
 }
+
 .style-group__list {
     gap: 12px;
     display: flex;
@@ -319,9 +350,10 @@
     text-align: center;
     border-radius: 8px;
 }
-.style-group__list span{
+
+.style-group__list span {
     flex: 0 0 calc(33.33% - 12px);
-    border:1px solid #D2D6DB;
+    border: 1px solid #D2D6DB;
     color: #9DA4AE;
     font-size: 14px;
     font-weight: 400;
@@ -336,37 +368,164 @@
 }
 
 .quantity-btn {
-    display: flex; 
-    align-items: center; 
+    display: flex;
+    align-items: center;
 }
 
 .quantity {
-    font-size: 16px; /* Kích thước chữ cho số lượng */
-    width: 30px; /* Chiều rộng của span */
-    text-align: center; /* Căn giữa nội dung trong span */
-   
-    border-color:1px  solid #F3F4F6;
+    font-size: 16px;
+    /* Kích thước chữ cho số lượng */
+    width: 30px;
+    /* Chiều rộng của span */
+    text-align: center;
+    /* Căn giữa nội dung trong span */
+
+    border-color: 1px solid #F3F4F6;
 }
 
-.btn-decrement, .btn-increment {
+.btn-decrement,
+.btn-increment {
     background-color: white;
-    color: #4D5761; 
-    border: none; 
+    color: #4D5761;
+    border: none;
     border-radius: 4px;
-    width: 30px; 
-    height: 30px; 
-    cursor: pointer; 
-    font-size: 18px; 
-    border: 1px solid  #F3F4F6;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    font-size: 18px;
+    border: 1px solid #F3F4F6;
 }
 
 /* Nếu bạn chỉ muốn bo tròn góc trên bên trái, sử dụng thuộc tính sau: */
 .btn-decrement {
-    border-top-left-radius: 8px; /* Bo tròn góc trên bên trái */
-    border-bottom-left-radius:8px
+    border-top-left-radius: 8px;
+    /* Bo tròn góc trên bên trái */
+    border-bottom-left-radius: 8px
 }
 
 .btn-increment {
-    border-top-right-radius: 8px; /* Bo tròn góc trên bên phải */
-    border-bottom-right-radius:8px;
+    border-top-right-radius: 8px;
+    /* Bo tròn góc trên bên phải */
+    border-bottom-right-radius: 8px;
+}
+
+.commit {
+    color: #4D5761;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 12px;
+}
+
+/* Shop info */
+
+.shop-info-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shop-info-wrapper {
+    display: flex;
+    width: 100%;
+    gap: 16px;
+    justify-content: start;
+}
+
+.shop-info__avatar {
+    width: 79px;
+    height: 79px;
+    border-radius: 50%;
+    /* Đảm bảo hình tròn */
+}
+
+.shop-avatar-wrapper {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    /* Đảm bảo hình tròn cho container */
+    position: relative;
+    overflow: hidden;
+}
+
+.shop-avatar-wrapper img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    /* Đảm bảo hình ảnh bao phủ toàn bộ diện tích */
+    height: 100%;
+    object-fit: cover;
+}
+
+.shop-info__info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.shop-info__info p {
+    color: #0D121C;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.shop-info__info span {
+    color: #4D5761;
+    font-size: 10px;
+    line-height: 12px;
+    font-weight: 400;
+}
+
+.shop-info__ads {
+    max-width: 384px;
+    height: 88px;
+
+}
+
+.description-head-title {
+    height: 44px;
+    width: 100%;
+    padding: 10px 12px;
+    background-color: #F0F9FF;
+    font-size: 18px;
+    color: #0D121C;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.des-detail p {
+    color: #4D5761;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    width: 82px;
+
+}
+
+.des-detail span {
+    color: #0D121C;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+}
+
+.brand-info p ,
+.brand-info h4,
+.brand-info li 
+{
+    color: #4D5761;
+    font-size: 14px;
+    font-weight: 400;
+}
+.brand-info h4 {
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.brand-info ul {
+    list-style-type: none;
 }

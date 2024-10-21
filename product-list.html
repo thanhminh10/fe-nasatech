@@ -65,15 +65,25 @@
 
 
 
-    <main class="flex-column gap-6 py-9">
+    <main class="flex-column gap-4 py-9">
         <section class="product-detail-section container flex-column gap-6">
             <div class="thumnail-section">
-                <div class="flex-column gap-10">
-                    <div><img src="assets/images/product2.svg" alt="Thumbnail 1" class="thumbnail" data-img="assets/images/product2.svg"></div>
-                    <div><img src="assets/images/product2.svg" alt="Thumbnail 2" class="thumbnail" data-img="assets/images/product2.svg"></div>
-                    <div><img src="assets/images/product2.svg" alt="Thumbnail 3" class="thumbnail" data-img="assets/images/product2.svg"></div>
-                    <div><img src="assets/images/product2.svg" alt="Thumbnail 4" class="thumbnail" data-img="assets/images/product2.svg"></div>
-                    <div><img src="assets/images/product2.svg" alt="Thumbnail 5" class="thumbnail" data-img="assets/images/product2.svg"></div>
+                <div class="flex-column gap-10 thumbnail-list">
+                    <div class="thumbnail-container">
+                        <img src="assets/images/product2.svg" alt="Thumbnail 1" class="thumbnail" data-img="assets/images/product2.svg">
+                    </div>
+                    <div class="thumbnail-container">
+                        <img src="assets/images/product2.svg" alt="Thumbnail 2" class="thumbnail" data-img="assets/images/product2.svg">
+                    </div>
+                    <div class="thumbnail-container">
+                        <img src="assets/images/product2.svg" alt="Thumbnail 3" class="thumbnail" data-img="assets/images/product2.svg">
+                    </div>
+                    <div class="thumbnail-container">
+                        <img src="assets/images/product2.svg" alt="Thumbnail 4" class="thumbnail" data-img="assets/images/product2.svg">
+                    </div>
+                    <div class="thumbnail-container">
+                        <img src="assets/images/product2.svg" alt="Thumbnail 5" class="thumbnail" data-img="assets/images/product2.svg">
+                    </div>
                 </div>
                 <div class="current-img">
                     <img src="assets/images/product1.svg" alt="Current Image" id="currentImage">
@@ -146,8 +156,145 @@
                             <button class="btn-increment">+</button>
                         </div>
                     </div>
+
+                    <div class="flex gap-4">
+                        <button class="btn-outline">Thêm vào giỏ hàng</button>
+                        <button class="btn-primary">Mua ngay</button>
+                    </div>
+                    <div>
+                        <hr style="border: none; height: 1px; background-color: #F3F4F6; margin-bottom: 20px;">
+                        <div class="flex-between">
+                            <p class="commit">Trả hàng 15 ngày</p>
+                            <p class="commit">Eric đảm bảo</p>
+                        </div>
+                    </div>
                 </div>
             </div>
+        </section>
+
+        <section class="shop-info-section container flex-column gap-6">
+            <div class="shop-info-wrapper">
+                <div class="shop-info__avatar">
+                    <div class="shop-avatar-wrapper">
+                        <img src="/assets/images/shopimg.svg" alt="logo">
+                    </div>
+                </div>
+                <div class="shop-info__info">
+                    <div class="flex-column">
+                        <h3 class="flex items-center gap-1">Shop đồ mỹ phẩm <img src="/assets/images/verified.svg" alt=""></h3>
+                        <span>Trực tiếp 1 giờ trước</span>
+                    </div>
+                </div>
+                <div class="shop-info__ads">
+                    <img src="/assets/images/ads1.svg" alt="">
+                </div>
+                <div class="shop-info__ads">
+                    <img src="/assets/images/ads2.svg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="description-section container flex-column gap-6">
+            <div class="description-head-title">
+                Chi tiết sản phẩm
+            </div>
+            <div class="des-detail flex-column flex-between gap-4s">
+                <div class="flex gap-6">
+                    <p>Danh Mục</p>
+                    <span>Phí vận chuyển <span class="px-1">200.000</span></span>
+                </div>
+                <div class="flex gap-6">
+                    <p>Kho</p>
+                    <span>Sắc đẹp</span>
+                </div>
+                <div class="flex gap-6">
+                    <p>Kích cỡ sản phẩm</p>
+                    <span>Size lớn</span>
+                </div>
+                <div class="flex gap-6">
+                    <p>Hạn sử dụng</p>
+                    <span>36 tháng</span>
+                </div>
+                
+            </div>
+            <div>
+                <hr style="border: none; height: 1px; background-color: #F3F4F6; margin-bottom: 20px;">
+                <div class="flex-between">
+                    <p class="commit">Trả hàng 15 ngày</p>
+                    <p class="commit">Eric đảm bảo</p>
+                </div>
+            </div>
+
+            <div class="description-head-title">
+                Mô tả sản phẩm
+            </div>
+            <div class="brand-info">
+                <h4>THÔNG TIN THƯƠNG HIỆU</h4>
+                <p>Simple là thương hiệu dành cho da nhạy cảm được ưa chuộng số 1 ở thị trường UK, sản phẩm được bán hầu hết trong các hiệu thuốc, thành phần lành tính, là sản phẩm hoàn hảo nhất cho làn da nhạy cảm.</p>
+                
+                <h4>VỀ SẢN PHẨM</h4>
+                <p>Bộ sản phẩm dưỡng da Simple là một quy trình dưỡng da hoàn chỉnh bao gồm các bước: Tẩy trang, sữa rửa mặt, toner, sữa dưỡng da. Phù hợp cho những bạn đang tìm kiếm cho mình các sản phẩm chăm sóc da nhưng không biết bắt đầu từ đâu. Tất cả sản phẩm đều đến từ thương hiệu Simple, phù hợp với mọi loại da, kể cả làn da nhạy cảm nhất.</p>
+                
+                <h4>THÀNH PHẦN</h4>
+                <p>Các thành phần có trong các sản phẩm dưỡng da Simple đều dịu nhẹ, lành tính, an toàn cho da. Thân thiện với tự nhiên. Nói không với cồn, hương liệu, các thành phần có hại cho da.</p>
+                
+                <h4>CÔNG DỤNG</h4>
+                <ul>
+                    <li>Tẩy trang Simple: nhẹ nhàng lấy đi makeup, kem chống nắng mà không gây căng, khô ráp cho da.</li>
+                    <li>Sữa rửa mặt Simple: Bước double cleansing giúp làm sạch bụi bẩn, dầu thừa còn xót lại sau bước tẩy trang.</li>
+                    <li>Toner: Cân bằng ẩm, se khít lỗ chân lông, là bước đệm hoàn hảo cho dưỡng chất dễ dàng thẩm thấu hơn.</li>
+                    <li>Sữa dưỡng: Bước khóa ẩm giúp da ẩm sâu, căng mướt. Làm sáng da nhẹ nhàng.</li>
+                </ul>
+                
+                <h4>CÁCH DÙNG</h4>
+                <ul>
+                    <li>⚡Tẩy trang Simple: Thấm nước tẩy trang vào bông và tẩy nhẹ nhàng theo chiều từ dưới lên trên, từ trong ra ngoài. Hạn chế chà xát mạnh gây tổn thương tới da.</li>
+                    <li>⚡Gel rửa mặt Simple: Tiếp tục cho gel rửa mặt ra lòng bàn tay và tạo bọt, mát xa trên mặt tầm 3-5 phút rồi rửa lại với nước.</li>
+                    <li>⚡Toner Simple: Đổ toner ra tay tầm 4-5 giọt rồi vỗ đều lên da cho tới khi toner thấm hết.</li>
+                    <li>⚡Sữa dưỡng da Simple: Kết thúc chu trình với sữa dưỡng khóa ẩm cho da. Bạn chấm sản phẩm lên 5 vùng trên mặt (trán, 2 má, mũi, cằm) và mát xa đều cho đến khi sản phẩm thấm hết.</li>
+                </ul>
+                
+                <h4>PHÂN LOẠI</h4>
+                <ul>
+                    <li>
+                        Combo 4 Simple:
+                        <ul>
+                            <li>- Tẩy trang</li>
+                            <li>- Sữa rửa mặt</li>
+                            <li>- Toner</li>
+                            <li>- Sữa dưỡng Simple</li>
+                        </ul>
+                    </li>
+                    <li>
+                        Combo 3 Simple:
+                        <ul>
+                            <li>- Tẩy trang</li>
+                            <li>- Sữa rửa mặt</li>
+                            <li>- Toner Simple</li>
+                           
+                        </ul>
+                    </li>
+                    
+                </ul>
+                
+                <h4>LƯU Ý</h4>
+                <p>Sữa dưỡng trong quá trình sử dụng sẽ có hơi nóng da lúc ban đầu nhưng khách hàng yên tâm đó là do tác dụng trong thành phần của sản phẩm, hoàn toàn an toàn.</p>
+                
+                <h4>THÔNG TIN SẢN PHẨM</h4>
+                <ul>
+                    <li>Hạn sử dụng: 3 năm kể từ ngày sản xuất</li>
+                    <li>Xuất xứ: Anh</li>
+                    <li>Dung tích:</li>
+                    <ul>
+                        <li>Tẩy trang: 200ml</li>
+                        <li>Sữa rửa mặt: 150ml</li>
+                        <li>Toner: 200ml</li>
+                        <li>Sữa dưỡng: 125ml</li>
+                    </ul>
+                </ul>
+                <p>#simple #taytrang #suaruamat #suaduong #toner #duongdatrongoi</p>
+            </div>
+            
         </section>
     </main>
 

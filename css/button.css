@@ -54,3 +54,30 @@
     background-color: #0D121C;
     color: white;
 }
+.btn-primary, .btn-outline {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.btn-outline {
+  max-width: 172px;
+  height: 40px;
+  padding: 10px 14px;
+  gap: 8px;
+  border: 1px solid #2E90FA;
+  border-radius: 8px;
+  background-color:  #B2DDFF80;
+  color: #2E90FA;
+}
+
+.btn-primary {
+max-width: 172px;
+  height: 40px;
+  padding: 10px 14px;
+  gap: 8px;
+  border: none;
+  border-radius: 8px;
+  background-color:  #2E90FA;
+  color: white;
+}
