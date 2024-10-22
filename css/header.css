@@ -139,6 +139,8 @@ header nav ul li a {
     color: #0D121C;
     gap: 8px;
 }
+
+
 .btn_cart, .btn_avatar {
     height: 44px;
     width: 44px;
@@ -146,3 +148,23 @@ header nav ul li a {
     justify-content: center;
     align-items: center;
 }
+
+.btn_cart {
+    position: relative;
+}
+
+.cart-number {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background-color: red;
+    color: white;
+    font-size: 12px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    font-weight: 590;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

@@ -12,14 +12,15 @@
     <link rel="stylesheet" href="css/button.css">
     <link rel="stylesheet" href="css/section.css">
     <link rel="stylesheet" href="css/product-cart.css">
-
+    <link rel="stylesheet" href="css/pagination.css">
 
 </head>
+
 <body>
     <header class="header">
         <div class="header_top">
             <div class="header_top--wrapper container">
-                <span class="btn btn-back">Trở về trang chủ</span>
+                <a href="/index.html" class="btn btn-back">Trở về trang chủ</a>
                 <div class="user-side">
                     <span>Kênh người bán</span>
                     <span class="btn btn-login">Đăng ký</span>
@@ -29,10 +30,10 @@
         <nav class="header_bottom container">
             <div class="header_bottom--wrapper container flex flex-between">
                 <div class="header_bottom_left flex">
-                    <div class="header_logo">
+                    <a href="/index.html"  class="header_logo">
                         <img src="assets/images/logo.svg" alt="Logo" width="110" height="32">
 
-                    </div>
+                    </a>
                     <div class="search-container">
                         <img src="assets/images/search.svg" alt="Logo" width="20" height="20">
                         <input type="text" class="search-bar" placeholder="Search...">
@@ -62,27 +63,30 @@
             </div>
         </nav>
     </header>
-
-
-
-    <main class="flex-column gap-4 py-9">
+    
+    <main class="flex-column gap-4 py-9 pb-0">
         <section class="product-detail-section container flex-column gap-6">
             <div class="thumnail-section">
                 <div class="flex-column gap-10 thumbnail-list">
                     <div class="thumbnail-container">
-                        <img src="assets/images/product2.svg" alt="Thumbnail 1" class="thumbnail" data-img="assets/images/product2.svg">
+                        <img src="assets/images/product2.svg" alt="Thumbnail 1" class="thumbnail"
+                            data-img="assets/images/product2.svg">
                     </div>
                     <div class="thumbnail-container">
-                        <img src="assets/images/product2.svg" alt="Thumbnail 2" class="thumbnail" data-img="assets/images/product2.svg">
+                        <img src="assets/images/product2.svg" alt="Thumbnail 2" class="thumbnail"
+                            data-img="assets/images/product2.svg">
                     </div>
                     <div class="thumbnail-container">
-                        <img src="assets/images/product2.svg" alt="Thumbnail 3" class="thumbnail" data-img="assets/images/product2.svg">
+                        <img src="assets/images/product2.svg" alt="Thumbnail 3" class="thumbnail"
+                            data-img="assets/images/product2.svg">
                     </div>
                     <div class="thumbnail-container">
-                        <img src="assets/images/product2.svg" alt="Thumbnail 4" class="thumbnail" data-img="assets/images/product2.svg">
+                        <img src="assets/images/product2.svg" alt="Thumbnail 4" class="thumbnail"
+                            data-img="assets/images/product2.svg">
                     </div>
                     <div class="thumbnail-container">
-                        <img src="assets/images/product2.svg" alt="Thumbnail 5" class="thumbnail" data-img="assets/images/product2.svg">
+                        <img src="assets/images/product2.svg" alt="Thumbnail 5" class="thumbnail"
+                            data-img="assets/images/product2.svg">
                     </div>
                 </div>
                 <div class="current-img">
@@ -92,7 +96,7 @@
             <div class="detail-section flex flex-column gap-4">
                 <div class="detail-title flex-column gap-3">
                     <h1>
-                        [Sỉ-Rẻ] Sữa Rửa Mặt Simple Mẫu Mới 150ml - Dịu Nhẹ Cho Da  – HV104 [Lẻ-Sỉ]
+                        [Sỉ-Rẻ] Sữa Rửa Mặt Simple Mẫu Mới 150ml - Dịu Nhẹ Cho Da – HV104 [Lẻ-Sỉ]
                     </h1>
                     <div class="rating-group flex gap-4">
                         <div class="rating flex">
@@ -125,7 +129,8 @@
                         <span class="express-group__title">Vẫn chuyển</span>
                         <div class="flex-column">
                             <div>Miễn phí vận chuyển</div>
-                            <div>Vận chuyển từ <span class="underline px-1">Hà Nội</span> đến <span class="px-1 underline">Hồ Chí Minh</span></div>
+                            <div>Vận chuyển từ <span class="underline px-1">Hà Nội</span> đến <span
+                                    class="px-1 underline">Hồ Chí Minh</span></div>
                             <div>Phí vận chuyển <span class="px-1">200.000</span></div>
                         </div>
                     </div>
@@ -181,7 +186,8 @@
                 </div>
                 <div class="shop-info__info">
                     <div class="flex-column">
-                        <h3 class="flex items-center gap-1">Shop đồ mỹ phẩm <img src="/assets/images/verified.svg" alt=""></h3>
+                        <h3 class="flex items-center gap-1">Shop đồ mỹ phẩm <img src="/assets/images/verified.svg"
+                                alt=""></h3>
                         <span>Trực tiếp 1 giờ trước</span>
                     </div>
                 </div>
@@ -215,7 +221,7 @@
                     <p>Hạn sử dụng</p>
                     <span>36 tháng</span>
                 </div>
-                
+
             </div>
             <div>
                 <hr style="border: none; height: 1px; background-color: #F3F4F6; margin-bottom: 20px;">
@@ -230,30 +236,41 @@
             </div>
             <div class="brand-info">
                 <h4>THÔNG TIN THƯƠNG HIỆU</h4>
-                <p>Simple là thương hiệu dành cho da nhạy cảm được ưa chuộng số 1 ở thị trường UK, sản phẩm được bán hầu hết trong các hiệu thuốc, thành phần lành tính, là sản phẩm hoàn hảo nhất cho làn da nhạy cảm.</p>
-                
+                <p>Simple là thương hiệu dành cho da nhạy cảm được ưa chuộng số 1 ở thị trường UK, sản phẩm được bán hầu
+                    hết trong các hiệu thuốc, thành phần lành tính, là sản phẩm hoàn hảo nhất cho làn da nhạy cảm.</p>
+
                 <h4>VỀ SẢN PHẨM</h4>
-                <p>Bộ sản phẩm dưỡng da Simple là một quy trình dưỡng da hoàn chỉnh bao gồm các bước: Tẩy trang, sữa rửa mặt, toner, sữa dưỡng da. Phù hợp cho những bạn đang tìm kiếm cho mình các sản phẩm chăm sóc da nhưng không biết bắt đầu từ đâu. Tất cả sản phẩm đều đến từ thương hiệu Simple, phù hợp với mọi loại da, kể cả làn da nhạy cảm nhất.</p>
-                
+                <p>Bộ sản phẩm dưỡng da Simple là một quy trình dưỡng da hoàn chỉnh bao gồm các bước: Tẩy trang, sữa rửa
+                    mặt, toner, sữa dưỡng da. Phù hợp cho những bạn đang tìm kiếm cho mình các sản phẩm chăm sóc da
+                    nhưng không biết bắt đầu từ đâu. Tất cả sản phẩm đều đến từ thương hiệu Simple, phù hợp với mọi loại
+                    da, kể cả làn da nhạy cảm nhất.</p>
+
                 <h4>THÀNH PHẦN</h4>
-                <p>Các thành phần có trong các sản phẩm dưỡng da Simple đều dịu nhẹ, lành tính, an toàn cho da. Thân thiện với tự nhiên. Nói không với cồn, hương liệu, các thành phần có hại cho da.</p>
-                
+                <p>Các thành phần có trong các sản phẩm dưỡng da Simple đều dịu nhẹ, lành tính, an toàn cho da. Thân
+                    thiện với tự nhiên. Nói không với cồn, hương liệu, các thành phần có hại cho da.</p>
+
                 <h4>CÔNG DỤNG</h4>
                 <ul>
-                    <li>Tẩy trang Simple: nhẹ nhàng lấy đi makeup, kem chống nắng mà không gây căng, khô ráp cho da.</li>
-                    <li>Sữa rửa mặt Simple: Bước double cleansing giúp làm sạch bụi bẩn, dầu thừa còn xót lại sau bước tẩy trang.</li>
-                    <li>Toner: Cân bằng ẩm, se khít lỗ chân lông, là bước đệm hoàn hảo cho dưỡng chất dễ dàng thẩm thấu hơn.</li>
+                    <li>Tẩy trang Simple: nhẹ nhàng lấy đi makeup, kem chống nắng mà không gây căng, khô ráp cho da.
+                    </li>
+                    <li>Sữa rửa mặt Simple: Bước double cleansing giúp làm sạch bụi bẩn, dầu thừa còn xót lại sau bước
+                        tẩy trang.</li>
+                    <li>Toner: Cân bằng ẩm, se khít lỗ chân lông, là bước đệm hoàn hảo cho dưỡng chất dễ dàng thẩm thấu
+                        hơn.</li>
                     <li>Sữa dưỡng: Bước khóa ẩm giúp da ẩm sâu, căng mướt. Làm sáng da nhẹ nhàng.</li>
                 </ul>
-                
+
                 <h4>CÁCH DÙNG</h4>
                 <ul>
-                    <li>⚡Tẩy trang Simple: Thấm nước tẩy trang vào bông và tẩy nhẹ nhàng theo chiều từ dưới lên trên, từ trong ra ngoài. Hạn chế chà xát mạnh gây tổn thương tới da.</li>
-                    <li>⚡Gel rửa mặt Simple: Tiếp tục cho gel rửa mặt ra lòng bàn tay và tạo bọt, mát xa trên mặt tầm 3-5 phút rồi rửa lại với nước.</li>
+                    <li>⚡Tẩy trang Simple: Thấm nước tẩy trang vào bông và tẩy nhẹ nhàng theo chiều từ dưới lên trên, từ
+                        trong ra ngoài. Hạn chế chà xát mạnh gây tổn thương tới da.</li>
+                    <li>⚡Gel rửa mặt Simple: Tiếp tục cho gel rửa mặt ra lòng bàn tay và tạo bọt, mát xa trên mặt tầm
+                        3-5 phút rồi rửa lại với nước.</li>
                     <li>⚡Toner Simple: Đổ toner ra tay tầm 4-5 giọt rồi vỗ đều lên da cho tới khi toner thấm hết.</li>
-                    <li>⚡Sữa dưỡng da Simple: Kết thúc chu trình với sữa dưỡng khóa ẩm cho da. Bạn chấm sản phẩm lên 5 vùng trên mặt (trán, 2 má, mũi, cằm) và mát xa đều cho đến khi sản phẩm thấm hết.</li>
+                    <li>⚡Sữa dưỡng da Simple: Kết thúc chu trình với sữa dưỡng khóa ẩm cho da. Bạn chấm sản phẩm lên 5
+                        vùng trên mặt (trán, 2 má, mũi, cằm) và mát xa đều cho đến khi sản phẩm thấm hết.</li>
                 </ul>
-                
+
                 <h4>PHÂN LOẠI</h4>
                 <ul>
                     <li>
@@ -271,15 +288,16 @@
                             <li>- Tẩy trang</li>
                             <li>- Sữa rửa mặt</li>
                             <li>- Toner Simple</li>
-                           
+
                         </ul>
                     </li>
-                    
+
                 </ul>
-                
+
                 <h4>LƯU Ý</h4>
-                <p>Sữa dưỡng trong quá trình sử dụng sẽ có hơi nóng da lúc ban đầu nhưng khách hàng yên tâm đó là do tác dụng trong thành phần của sản phẩm, hoàn toàn an toàn.</p>
-                
+                <p>Sữa dưỡng trong quá trình sử dụng sẽ có hơi nóng da lúc ban đầu nhưng khách hàng yên tâm đó là do tác
+                    dụng trong thành phần của sản phẩm, hoàn toàn an toàn.</p>
+
                 <h4>THÔNG TIN SẢN PHẨM</h4>
                 <ul>
                     <li>Hạn sử dụng: 3 năm kể từ ngày sản xuất</li>
@@ -294,7 +312,449 @@
                 </ul>
                 <p>#simple #taytrang #suaruamat #suaduong #toner #duongdatrongoi</p>
             </div>
-            
+
+        </section>
+
+        <section class="comment-section container flex-column gap-6">
+            <div class="comment-head-title">
+                Đánh giá sản phẩm
+            </div>
+            <div class="synthetic flex gap-4">
+                <div class="flex-column gap-3 synthetic-rating">
+                    <p><span>4.9</span> trên 5</p>
+                    <div class="rating flex">
+                        <img src="/assets/images/star_purple500.svg" alt="rating">
+                        <img src="/assets/images/star_purple500.svg" alt="rating">
+                        <img src="/assets/images/star_purple500.svg" alt="rating">
+                        <img src="/assets/images/star_purple500.svg" alt="rating">
+                        <img src="/assets/images/star_purple500.svg" alt="rating">
+                    </div>
+                </div>
+                <ul class="flex gap-3 filter-comment">
+                    <li>Tất cả</li>
+                    <li>5 sao <span>(288)</span></li>
+                    <li>4 sao <span>(8)</span></li>
+                    <li>3 sao <span>(8)</span></li>
+                    <li>2 sao <span>(8)</span></li>
+                    <li>1 sao <span>(8)</span></li>
+                </ul>
+            </div>
+
+            <div class="comment-list">
+                <div class="comment-item">
+                    <div class="comment-item__avatar">
+                        <div class="user-avatar">
+                            <div class="user-avatar-img">
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="comment-item__content">
+                        <div class="user-name">Kierra Dorwart</div>
+                        <div class="rating flex">
+                            <img src="/assets/images/star_purple500.svg" alt="rating">
+                            <img src="/assets/images/star_purple500.svg" alt="rating">
+                            <img src="/assets/images/star_purple500.svg" alt="rating">
+                            <img src="/assets/images/star_purple500.svg" alt="rating">
+                            <img src="/assets/images/star_purple500.svg" alt="rating">
+                        </div>
+                        <div class="comment-content flex-column gap-4">
+                            <p>Tuyệt vời, tưởng chừng như đã ko thể mua được.<br>Vì tại các shop Ironcap Barbershop đã
+                                không còn hay, may mắn thay vì đã có shoppee ship hàng</p>
+                            <p>Với sự kết hợp Lighthouse Pre-Styling giúp tóc tạo độ phồng tuyệt vời cùng với Sáp vuốt
+                                tóc Lighthouse 420 tạo nên nét bay bổng cho mái tóc đã vào nếp trước đó, thật sự không
+                                có điều gì để phải chê với sự kết hợp các loại sản phẩm này.</p>
+                            <p>Ironcap Barbershop luôn mãi đỉnh từ thiết kế kiểu tóc cho đến việc các sản phẩm dành cho
+                                tóc đi kèm.</p>
+                        </div>
+                    </div>
+                </div>
+                <hr style="border: none; height: 1px; background-color: #F3F4F6;">
+                <div class="comment-item">
+                    <div class="comment-item__avatar">
+                        <div class="user-avatar">
+                            <div class="user-avatar-img">
+
+                            </div>
+                        </div>
+                    </div>
+                    <hr style="border: none; height: 1px; background-color: #F3F4F6;">
+                    <div class="comment-item__content">
+                        <div class="user-name">Kierra Dorwart</div>
+                        <div class="rating flex">
+                            <img src="/assets/images/star_purple500.svg" alt="rating">
+                            <img src="/assets/images/star_purple500.svg" alt="rating">
+                            <img src="/assets/images/star_purple500.svg" alt="rating">
+                            <img src="/assets/images/star_purple500.svg" alt="rating">
+                            <img src="/assets/images/star_purple500.svg" alt="rating">
+                        </div>
+                        <div class="comment-content flex-column gap-4">
+                            <p>Tuyệt vời, tưởng chừng như đã ko thể mua được.<br>Vì tại các shop Ironcap Barbershop đã
+                                không còn hay, may mắn thay vì đã có shoppee ship hàng</p>
+                            <p>Với sự kết hợp Lighthouse Pre-Styling giúp tóc tạo độ phồng tuyệt vời cùng với Sáp vuốt
+                                tóc Lighthouse 420 tạo nên nét bay bổng cho mái tóc đã vào nếp trước đó, thật sự không
+                                có điều gì để phải chê với sự kết hợp các loại sản phẩm này.</p>
+                            <p>Ironcap Barbershop luôn mãi đỉnh từ thiết kế kiểu tóc cho đến việc các sản phẩm dành cho
+                                tóc đi kèm.</p>
+                        </div>
+                    </div>
+                </div>
+                <hr style="border: none; height: 1px; background-color: #F3F4F6;">
+                <div class="comment-item">
+                    <div class="comment-item__avatar">
+                        <div class="user-avatar">
+                            <div class="user-avatar-img">
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="comment-item__content">
+                        <div class="user-name">Kierra Dorwart</div>
+                        <div class="rating flex">
+                            <img src="/assets/images/star_purple500.svg" alt="rating">
+                            <img src="/assets/images/star_purple500.svg" alt="rating">
+                            <img src="/assets/images/star_purple500.svg" alt="rating">
+                            <img src="/assets/images/star_purple500.svg" alt="rating">
+                            <img src="/assets/images/star_purple500.svg" alt="rating">
+                        </div>
+                        <div class="comment-content flex-column gap-4">
+                            <p>Tuyệt vời, tưởng chừng như đã ko thể mua được.<br>Vì tại các shop Ironcap Barbershop đã
+                                không còn hay, may mắn thay vì đã có shoppee ship hàng</p>
+                            <p>Với sự kết hợp Lighthouse Pre-Styling giúp tóc tạo độ phồng tuyệt vời cùng với Sáp vuốt
+                                tóc Lighthouse 420 tạo nên nét bay bổng cho mái tóc đã vào nếp trước đó, thật sự không
+                                có điều gì để phải chê với sự kết hợp các loại sản phẩm này.</p>
+                            <p>Ironcap Barbershop luôn mãi đỉnh từ thiết kế kiểu tóc cho đến việc các sản phẩm dành cho
+                                tóc đi kèm.</p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <hr style="border: none; height: 1px; background-color: #F3F4F6;">
+                <div class="flex-between">
+                    <p class="commit">Trả hàng 15 ngày</p>
+                    <p class="commit">Eric đảm bảo</p>
+                </div>
+            </div>
+            <div class="pagination-container flex-center">
+                <button class="prev-double-btn"><img src="/assets/images/chevron-left.svg" alt="icon"></button>
+                <button class="prev-btn"><img src="/assets/images/chevron-left.svg" alt="icon"></button>
+                <button class="page-item">1</button>
+                <button class="page-item active-page">2</button>
+                <button class="page-item">3</button>
+                <button class="page-item">4</button>
+                <button class="dots-item">...</button>
+                <button class="page-item">9</button>
+                <button class="next-btn"><img src="/assets/images/chevron-right.svg" alt="icon"></button>
+                <button class="next-double-btn"><img src="/assets/images/chevron-double-left.svg" alt="icon"></button>
+            </div>
+        </section>
+
+        <section class="subject-section container flex-column gap-6">
+            <h2 class="subject-title section-title">
+                Gợi ý hôm nay
+            </h2>
+            <div class="product-list">
+                <a href="/product-list.html" class="product-cart">
+                    <img class="cart-img" src="/assets/images/productimg.svg" alt="Product Image">
+                    <div class="cart-content">
+                        <div class="cart-content-des">
+                            <h3>Asus Zephyrus M16 2023</h3>
+                            <p class="price">
+                                90.000.000
+                                <span class="price-sale">-10%</span>
+                            </p>
+                        </div>
+                        <div class="flex-column gap-3">
+                            <hr style="border: none; height: 1px; background-color: #F3F4F6;">
+                            <div class="product-tag">
+                                <img src="/assets/images/semi-icons-coupon.svg" alt="icon"> Mua 2 giảm 20%
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="/product-list.html" class="product-cart">
+                    <img class="cart-img" src="/assets/images/productimg.svg" alt="Product Image">
+                    <div class="cart-content">
+                        <div class="cart-content-des">
+                            <h3>Asus Zephyrus M16 2023</h3>
+                            <p class="price">
+                                90.000.000
+                                <span class="price-sale">-10%</span>
+                            </p>
+                        </div>
+                        <div class="flex-column gap-3">
+                            <hr style="border: none; height: 1px; background-color: #F3F4F6;">
+                            <div class="product-tag">
+                                <img src="/assets/images/semi-icons-coupon.svg" alt="icon"> Mua 2 giảm 20%
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="/product-list.html" class="product-cart">
+                    <img class="cart-img" src="/assets/images/productimg.svg" alt="Product Image">
+                    <div class="cart-content">
+                        <div class="cart-content-des">
+                            <h3>Asus Zephyrus M16 2023</h3>
+                            <p class="price">
+                                90.000.000
+                                <span class="price-sale">-10%</span>
+                            </p>
+                        </div>
+                        <div class="flex-column gap-3">
+                            <hr style="border: none; height: 1px; background-color: #F3F4F6;">
+                            <div class="product-tag">
+                                <img src="/assets/images/semi-icons-coupon.svg" alt="icon"> Mua 2 giảm 20%
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="/product-list.html" class="product-cart">
+                    <img class="cart-img" src="/assets/images/productimg.svg" alt="Product Image">
+                    <div class="cart-content">
+                        <div class="cart-content-des">
+                            <h3>Asus Zephyrus M16 2023</h3>
+                            <p class="price">
+                                90.000.000
+                                <span class="price-sale">-10%</span>
+                            </p>
+                        </div>
+                        <div class="flex-column gap-3">
+                            <hr style="border: none; height: 1px; background-color: #F3F4F6;">
+                            <div class="product-tag">
+                                <img src="/assets/images/semi-icons-coupon.svg" alt="icon"> Mua 2 giảm 20%
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="product-list">
+                <a href="/product-list.html" class="product-cart">
+                    <img class="cart-img" src="/assets/images/productimg.svg" alt="Product Image">
+                    <div class="cart-content">
+                        <div class="cart-content-des">
+                            <h3>Asus Zephyrus M16 2023</h3>
+                            <p class="price">
+                                90.000.000
+                                <span class="price-sale">-10%</span>
+                            </p>
+                        </div>
+                        <div class="flex-column gap-3">
+                            <hr style="border: none; height: 1px; background-color: #F3F4F6;">
+                            <div class="product-tag">
+                                <img src="/assets/images/semi-icons-coupon.svg" alt="icon"> Mua 2 giảm 20%
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="/product-list.html" class="product-cart">
+                    <img class="cart-img" src="/assets/images/productimg.svg" alt="Product Image">
+                    <div class="cart-content">
+                        <div class="cart-content-des">
+                            <h3>Asus Zephyrus M16 2023</h3>
+                            <p class="price">
+                                90.000.000
+                                <span class="price-sale">-10%</span>
+                            </p>
+                        </div>
+                        <div class="flex-column gap-3">
+                            <hr style="border: none; height: 1px; background-color: #F3F4F6;">
+                            <div class="product-tag">
+                                <img src="/assets/images/semi-icons-coupon.svg" alt="icon"> Mua 2 giảm 20%
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="/product-list.html" class="product-cart">
+                    <img class="cart-img" src="/assets/images/productimg.svg" alt="Product Image">
+                    <div class="cart-content">
+                        <div class="cart-content-des">
+                            <h3>Asus Zephyrus M16 2023</h3>
+                            <p class="price">
+                                90.000.000
+                                <span class="price-sale">-10%</span>
+                            </p>
+                        </div>
+                        <div class="flex-column gap-3">
+                            <hr style="border: none; height: 1px; background-color: #F3F4F6;">
+                            <div class="product-tag">
+                                <img src="/assets/images/semi-icons-coupon.svg" alt="icon"> Mua 2 giảm 20%
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="/product-list.html" class="product-cart">
+                    <img class="cart-img" src="/assets/images/productimg.svg" alt="Product Image">
+                    <div class="cart-content">
+                        <div class="cart-content-des">
+                            <h3>Asus Zephyrus M16 2023</h3>
+                            <p class="price">
+                                90.000.000
+                                <span class="price-sale">-10%</span>
+                            </p>
+                        </div>
+                        <div class="flex-column gap-3">
+                            <hr style="border: none; height: 1px; background-color: #F3F4F6;">
+                            <div class="product-tag">
+                                <img src="/assets/images/semi-icons-coupon.svg" alt="icon"> Mua 2 giảm 20%
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="product-list">
+                <a href="/product-list.html" class="product-cart">
+                    <img class="cart-img" src="/assets/images/productimg.svg" alt="Product Image">
+                    <div class="cart-content">
+                        <div class="cart-content-des">
+                            <h3>Asus Zephyrus M16 2023</h3>
+                            <p class="price">
+                                90.000.000
+                                <span class="price-sale">-10%</span>
+                            </p>
+                        </div>
+                        <div class="flex-column gap-3">
+                            <hr style="border: none; height: 1px; background-color: #F3F4F6;">
+                            <div class="product-tag">
+                                <img src="/assets/images/semi-icons-coupon.svg" alt="icon"> Mua 2 giảm 20%
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="/product-list.html" class="product-cart">
+                    <img class="cart-img" src="/assets/images/productimg.svg" alt="Product Image">
+                    <div class="cart-content">
+                        <div class="cart-content-des">
+                            <h3>Asus Zephyrus M16 2023</h3>
+                            <p class="price">
+                                90.000.000
+                                <span class="price-sale">-10%</span>
+                            </p>
+                        </div>
+                        <div class="flex-column gap-3">
+                            <hr style="border: none; height: 1px; background-color: #F3F4F6;">
+                            <div class="product-tag">
+                                <img src="/assets/images/semi-icons-coupon.svg" alt="icon"> Mua 2 giảm 20%
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="/product-list.html" class="product-cart">
+                    <img class="cart-img" src="/assets/images/productimg.svg" alt="Product Image">
+                    <div class="cart-content">
+                        <div class="cart-content-des">
+                            <h3>Asus Zephyrus M16 2023</h3>
+                            <p class="price">
+                                90.000.000
+                                <span class="price-sale">-10%</span>
+                            </p>
+                        </div>
+                        <div class="flex-column gap-3">
+                            <hr style="border: none; height: 1px; background-color: #F3F4F6;">
+                            <div class="product-tag">
+                                <img src="/assets/images/semi-icons-coupon.svg" alt="icon"> Mua 2 giảm 20%
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="/product-list.html" class="product-cart">
+                    <img class="cart-img" src="/assets/images/productimg.svg" alt="Product Image">
+                    <div class="cart-content">
+                        <div class="cart-content-des">
+                            <h3>Asus Zephyrus M16 2023</h3>
+                            <p class="price">
+                                90.000.000
+                                <span class="price-sale">-10%</span>
+                            </p>
+                        </div>
+                        <div class="flex-column gap-3">
+                            <hr style="border: none; height: 1px; background-color: #F3F4F6;">
+                            <div class="product-tag">
+                                <img src="/assets/images/semi-icons-coupon.svg" alt="icon"> Mua 2 giảm 20%
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+            <div class="product-list">
+                <a href="/product-list.html" class="product-cart">
+                    <img class="cart-img" src="/assets/images/productimg.svg" alt="Product Image">
+                    <div class="cart-content">
+                        <div class="cart-content-des">
+                            <h3>Asus Zephyrus M16 2023</h3>
+                            <p class="price">
+                                90.000.000
+                                <span class="price-sale">-10%</span>
+                            </p>
+                        </div>
+                        <div class="flex-column gap-3">
+                            <hr style="border: none; height: 1px; background-color: #F3F4F6;">
+                            <div class="product-tag">
+                                <img src="/assets/images/semi-icons-coupon.svg" alt="icon"> Mua 2 giảm 20%
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="/product-list.html" class="product-cart">
+                    <img class="cart-img" src="/assets/images/productimg.svg" alt="Product Image">
+                    <div class="cart-content">
+                        <div class="cart-content-des">
+                            <h3>Asus Zephyrus M16 2023</h3>
+                            <p class="price">
+                                90.000.000
+                                <span class="price-sale">-10%</span>
+                            </p>
+                        </div>
+                        <div class="flex-column gap-3">
+                            <hr style="border: none; height: 1px; background-color: #F3F4F6;">
+                            <div class="product-tag">
+                                <img src="/assets/images/semi-icons-coupon.svg" alt="icon"> Mua 2 giảm 20%
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="/product-list.html" class="product-cart">
+                    <img class="cart-img" src="/assets/images/productimg.svg" alt="Product Image">
+                    <div class="cart-content">
+                        <div class="cart-content-des">
+                            <h3>Asus Zephyrus M16 2023</h3>
+                            <p class="price">
+                                90.000.000
+                                <span class="price-sale">-10%</span>
+                            </p>
+                        </div>
+                        <div class="flex-column gap-3">
+                            <hr style="border: none; height: 1px; background-color: #F3F4F6;">
+                            <div class="product-tag">
+                                <img src="/assets/images/semi-icons-coupon.svg" alt="icon"> Mua 2 giảm 20%
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="/product-list.html" class="product-cart">
+                    <img class="cart-img" src="/assets/images/productimg.svg" alt="Product Image">
+                    <div class="cart-content">
+                        <div class="cart-content-des">
+                            <h3>Asus Zephyrus M16 2023</h3>
+                            <p class="price">
+                                90.000.000
+                                <span class="price-sale">-10%</span>
+                            </p>
+                        </div>
+                        <div class="flex-column gap-3">
+                            <hr style="border: none; height: 1px; background-color: #F3F4F6;">
+                            <div class="product-tag">
+                                <img src="/assets/images/semi-icons-coupon.svg" alt="icon"> Mua 2 giảm 20%
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+            <div class="flex-center"><button class="btn btn-view-more">Xem thêm <img
+                        src="/assets/images/keyboard_arrow_down.svg" alt=""></button></div>
         </section>
     </main>
 
@@ -302,56 +762,57 @@
     <footer>
         <div class="footer-wrapper container">
             <div class="flex-between">
-                    <div class="flex-between gap-8 footer-info-list">
-                        <div class="footer-info-item">
-                            <h3>Company</h3>
-                            <div class="flex-column gap-4">
-                                <a class="footer-links" href="/">About us</a>
-                                <a class="footer-links" href="/">Contact us</a>
-                                <a class="footer-links" href="/"> Careers</a>
-                                <a class="footer-links" href="/"> Press</a>
-                            </div>
-                        </div>
-                        <div class="footer-info-item">
-                            <h3>Product</h3>
-                            <div class="flex-column gap-4">
-                                <a class="footer-links" href="/">Features</a>
-                                <a class="footer-links" href="/">Pricing</a>
-                                <a class="footer-links" href="/"> News</a>
-                                <a class="footer-links" href="/"> Help desk</a>
-                                <a class="footer-links" href="/"> Support</a>
-    
-                            </div>
-                        </div>
-                        <div class="footer-info-item">
-                            <h3>Legal</h3>
-                            <div class="flex-column gap-4">
-                                <a class="footer-links" href="/"> Privacy Policy</a>
-                                <a class="footer-links" href="/">Terms & Conditions</a>
-    
-                            </div>
+                <div class="flex-between gap-8 footer-info-list">
+                    <div class="footer-info-item">
+                        <h3>Company</h3>
+                        <div class="flex-column gap-4">
+                            <a class="footer-links" href="/">About us</a>
+                            <a class="footer-links" href="/">Contact us</a>
+                            <a class="footer-links" href="/"> Careers</a>
+                            <a class="footer-links" href="/"> Press</a>
                         </div>
                     </div>
-    
-                    <div class="flex-column">
-                        <div class="footer-info-item">
-                            <h3>Download Our App</h3>
-                            <div class="flex-column gap-4">
-                                <a href="/">
-                                    <img src="/assets/images/App Store.svg" alt="icon">
-                                </a>
-                                <a href="/">
-                                    <img src="/assets/images/Play Store.svg" alt="icon">
-                                </a>
-                            </div>
+                    <div class="footer-info-item">
+                        <h3>Product</h3>
+                        <div class="flex-column gap-4">
+                            <a class="footer-links" href="/">Features</a>
+                            <a class="footer-links" href="/">Pricing</a>
+                            <a class="footer-links" href="/"> News</a>
+                            <a class="footer-links" href="/"> Help desk</a>
+                            <a class="footer-links" href="/"> Support</a>
+
                         </div>
                     </div>
+                    <div class="footer-info-item">
+                        <h3>Legal</h3>
+                        <div class="flex-column gap-4">
+                            <a class="footer-links" href="/"> Privacy Policy</a>
+                            <a class="footer-links" href="/">Terms & Conditions</a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex-column">
+                    <div class="footer-info-item">
+                        <h3>Download Our App</h3>
+                        <div class="flex-column gap-4">
+                            <a href="/">
+                                <img src="/assets/images/App Store.svg" alt="icon">
+                            </a>
+                            <a href="/">
+                                <img src="/assets/images/Play Store.svg" alt="icon">
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="flex-column">
                 <hr style="border: none; height: 1px; background-color: #D2D6DB; margin-bottom: 30px;">
-                
+
                 <div class="flex-between mt-3">
-                    <p class="path flex-center gap-2">© 2024 Copyright, All Right Reserved, Made by Seju_ui_ux with <img src="/assets/images/Path.svg" alt=""></p>
+                    <p class="path flex-center gap-2">© 2024 Copyright, All Right Reserved, Made by Seju_ui_ux with <img
+                            src="/assets/images/Path.svg" alt=""></p>
                     <div class="social-group">
                         <a href="/">
                             <img src="/assets/images/logo-twitter.svg" alt="logo-social">

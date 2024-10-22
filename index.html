@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/button.css">
     <link rel="stylesheet" href="css/section.css">
     <link rel="stylesheet" href="css/product-cart.css">
-
+    <link rel="stylesheet" href="css/pagination.css">
 
 </head>
 
@@ -20,7 +20,7 @@
     <header class="header">
         <div class="header_top">
             <div class="header_top--wrapper container">
-                <span class="btn btn-back">Trở về trang chủ</span>
+                <a href="/index.html" class="btn btn-back">Trở về trang chủ</a>
                 <div class="user-side">
                     <span>Kênh người bán</span>
                     <span class="btn btn-login">Đăng ký</span>
@@ -30,10 +30,10 @@
         <nav class="header_bottom container">
             <div class="header_bottom--wrapper container flex flex-between">
                 <div class="header_bottom_left flex">
-                    <div class="header_logo">
+                    <a href="/index.html"  class="header_logo">
                         <img src="assets/images/logo.svg" alt="Logo" width="110" height="32">
 
-                    </div>
+                    </a>
                     <div class="search-container">
                         <img src="assets/images/search.svg" alt="Logo" width="20" height="20">
                         <input type="text" class="search-bar" placeholder="Search...">
@@ -55,7 +55,8 @@
                     </div>
                     <div class="btn_cart btn">
                         <img src="assets/images/shopping_cart.svg" alt="img" width="20" height="20">
-                    </div>
+                        <span class="cart-number">3</span>
+                      </div>
                     <div class="btn_avatar btn">
                         <img src="assets/images/image.svg" alt="img" width="40" height="40">
                     </div>
@@ -216,7 +217,7 @@
                         </div>
                     </div>
                     <div class="product-list">
-                        <div class="product-cart issale">
+                        <a href="/product-list.html" class="product-cart" issale">
                             <img class="cart-img" src="/assets/images/productimg.svg" alt="Product Image">
                             <div class="cart-content">
                                 <div class="cart-content-des">
@@ -233,8 +234,8 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="product-cart issale">
+                        </a>
+                        <a href="/product-list.html" class="product-cart" issale">
                             <img class="cart-img" src="/assets/images/productimg.svg" alt="Product Image">
                             <div class="cart-content">
                                 <div class="cart-content-des">
@@ -251,8 +252,8 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="product-cart issale">
+                        </a>
+                        <a href="/product-list.html" class="product-cart" issale">
                             <img class="cart-img" src="/assets/images/productimg.svg" alt="Product Image">
                             <div class="cart-content">
                                 <div class="cart-content-des">
@@ -269,8 +270,8 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="product-cart issale">
+                        </a>
+                        <a href="/product-list.html" class="product-cart" issale">
                             <img class="cart-img" src="/assets/images/productimg.svg" alt="Product Image">
                             <div class="cart-content">
                                 <div class="cart-content-des">
@@ -287,7 +288,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </a>
                         <div class="pagination-wrapper">
                             <button class="pagination pagination__button pagination__prev">
                                 <img src="/assets/images/semi-icons-chevron_left.svg" alt="chevron_left">
@@ -313,7 +314,7 @@
                         </div>
                     </div>
                     <div class="product-list">
-                        <div class="product-cart issale">
+                        <a href="/product-list.html" class="product-cart" issale">
                             <img class="cart-img" src="/assets/images/productimg.svg" alt="Product Image">
                             <div class="cart-content">
                                 <div class="cart-content-des">
@@ -330,8 +331,8 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="product-cart issale">
+                        </a>
+                        <a href="/product-list.html" class="product-cart" issale">
                             <img class="cart-img" src="/assets/images/productimg.svg" alt="Product Image">
                             <div class="cart-content">
                                 <div class="cart-content-des">
@@ -348,8 +349,8 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="product-cart issale">
+                        </a>
+                        <a href="/product-list.html" class="product-cart" issale">
                             <img class="cart-img" src="/assets/images/productimg.svg" alt="Product Image">
                             <div class="cart-content">
                                 <div class="cart-content-des">
@@ -366,8 +367,8 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="product-cart issale">
+                        </a>
+                        <a href="/product-list.html" class="product-cart" issale">
                             <img class="cart-img" src="/assets/images/productimg.svg" alt="Product Image">
                             <div class="cart-content">
                                 <div class="cart-content-des">
@@ -384,7 +385,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </a>
                         <div class="pagination-wrapper">
                             <button class="pagination pagination__button pagination__prev">
                                 <img src="/assets/images/semi-icons-chevron_left.svg" alt="chevron_left">
@@ -410,7 +411,7 @@
                 Gợi ý hôm nay
             </h2>
             <div class="product-list">
-                <div class="product-cart">
+                <a href="/product-list.html" class="product-cart">
                     <img class="cart-img" src="/assets/images/productimg.svg" alt="Product Image">
                     <div class="cart-content">
                         <div class="cart-content-des">
@@ -427,8 +428,8 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="product-cart">
+                </a>
+                <a href="/product-list.html" class="product-cart">
                     <img class="cart-img" src="/assets/images/productimg.svg" alt="Product Image">
                     <div class="cart-content">
                         <div class="cart-content-des">
@@ -445,8 +446,8 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="product-cart">
+                </a>
+                <a href="/product-list.html" class="product-cart">
                     <img class="cart-img" src="/assets/images/productimg.svg" alt="Product Image">
                     <div class="cart-content">
                         <div class="cart-content-des">
@@ -463,8 +464,8 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="product-cart">
+                </a>
+                <a href="/product-list.html" class="product-cart">
                     <img class="cart-img" src="/assets/images/productimg.svg" alt="Product Image">
                     <div class="cart-content">
                         <div class="cart-content-des">
@@ -481,10 +482,10 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </a>
             </div>
             <div class="product-list">
-                <div class="product-cart">
+                <a href="/product-list.html" class="product-cart">
                     <img class="cart-img" src="/assets/images/productimg.svg" alt="Product Image">
                     <div class="cart-content">
                         <div class="cart-content-des">
@@ -501,8 +502,8 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="product-cart">
+                </a>
+                <a href="/product-list.html" class="product-cart">
                     <img class="cart-img" src="/assets/images/productimg.svg" alt="Product Image">
                     <div class="cart-content">
                         <div class="cart-content-des">
@@ -519,8 +520,8 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="product-cart">
+                </a>
+                <a href="/product-list.html" class="product-cart">
                     <img class="cart-img" src="/assets/images/productimg.svg" alt="Product Image">
                     <div class="cart-content">
                         <div class="cart-content-des">
@@ -537,8 +538,8 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="product-cart">
+                </a>
+                <a href="/product-list.html" class="product-cart">
                     <img class="cart-img" src="/assets/images/productimg.svg" alt="Product Image">
                     <div class="cart-content">
                         <div class="cart-content-des">
@@ -555,10 +556,10 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </a>
             </div>
             <div class="product-list">
-                <div class="product-cart">
+                <a href="/product-list.html" class="product-cart">
                     <img class="cart-img" src="/assets/images/productimg.svg" alt="Product Image">
                     <div class="cart-content">
                         <div class="cart-content-des">
@@ -575,8 +576,8 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="product-cart">
+                </a>
+                <a href="/product-list.html" class="product-cart">
                     <img class="cart-img" src="/assets/images/productimg.svg" alt="Product Image">
                     <div class="cart-content">
                         <div class="cart-content-des">
@@ -593,8 +594,8 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="product-cart">
+                </a>
+                <a href="/product-list.html" class="product-cart">
                     <img class="cart-img" src="/assets/images/productimg.svg" alt="Product Image">
                     <div class="cart-content">
                         <div class="cart-content-des">
@@ -611,8 +612,8 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="product-cart">
+                </a>
+                <a href="/product-list.html" class="product-cart">
                     <img class="cart-img" src="/assets/images/productimg.svg" alt="Product Image">
                     <div class="cart-content">
                         <div class="cart-content-des">
@@ -629,11 +630,11 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </a>
 
             </div>
             <div class="product-list">
-                <div class="product-cart">
+                <a href="/product-list.html" class="product-cart">
                     <img class="cart-img" src="/assets/images/productimg.svg" alt="Product Image">
                     <div class="cart-content">
                         <div class="cart-content-des">
@@ -650,8 +651,8 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="product-cart">
+                </a>
+                <a href="/product-list.html" class="product-cart">
                     <img class="cart-img" src="/assets/images/productimg.svg" alt="Product Image">
                     <div class="cart-content">
                         <div class="cart-content-des">
@@ -668,8 +669,8 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="product-cart">
+                </a>
+                <a href="/product-list.html" class="product-cart">
                     <img class="cart-img" src="/assets/images/productimg.svg" alt="Product Image">
                     <div class="cart-content">
                         <div class="cart-content-des">
@@ -686,8 +687,8 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="product-cart">
+                </a>
+                <a href="/product-list.html" class="product-cart">
                     <img class="cart-img" src="/assets/images/productimg.svg" alt="Product Image">
                     <div class="cart-content">
                         <div class="cart-content-des">
@@ -704,7 +705,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </a>
 
             </div>
             <div class="flex-center"><button class="btn btn-view-more">Xem thêm <img

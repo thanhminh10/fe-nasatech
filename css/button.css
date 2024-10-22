@@ -5,6 +5,10 @@
 .btn-login {
     cursor: pointer;
 }
+.btn-back {
+    text-decoration: none;
+    color: white;
+}
 
 .pagination {
     display: flex;

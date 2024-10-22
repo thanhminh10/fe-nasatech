@@ -182,7 +182,8 @@
 }
 
 .shop-info-section,
-.description-section {
+.description-section,
+.comment-section {
     background-color: white;
     padding: 16px 24px;
     gap: 32px;
@@ -496,6 +497,17 @@
     line-height: 24px;
 }
 
+.comment-head-title {
+    height: 44px;
+    width: 100%;
+    padding: 10px 12px;
+    font-size: 18px;
+    color: #0D121C;
+    font-weight: 600;
+    line-height: 24px;
+    background-color: #FEF3F2;
+}
+
 .des-detail p {
     color: #4D5761;
     font-size: 14px;
@@ -514,18 +526,86 @@
     text-align: left;
 }
 
-.brand-info p ,
+.brand-info p,
 .brand-info h4,
-.brand-info li 
-{
+.brand-info li {
     color: #4D5761;
     font-size: 14px;
     font-weight: 400;
 }
+
 .brand-info h4 {
     text-transform: uppercase;
     margin-top: 20px;
 }
+
 .brand-info ul {
     list-style-type: none;
+}
+
+.synthetic-rating span {
+    font-size: 30px;
+    line-height: 38px;
+    font-weight: 400;
+    color: #EAAA08;
+}
+
+.synthetic-rating p {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #EAAA08;
+}
+
+.filter-comment {
+    list-style-type: none;
+    height: 32px;
+}
+
+.filter-comment li {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    border: 1px solid #F3F4F6;
+    padding: 6px 14px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.comment-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.comment-item {
+    display: flex;
+    gap: 24px;
+}
+
+.comment-item .user-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+}
+
+.comment-item .user-avatar .user-avatar-img {
+    background-image: url(/assets/images/avt-3.svg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.comment-item__content {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
 }
