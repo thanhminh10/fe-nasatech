@@ -9,7 +9,7 @@ This project is a front-end application that includes user authentication featur
 
 ## File Structure
 - **JavaScript**: 
-  - The login and registration scripts are located in `js/auth.js`.
+  - The login and registration scripts are located in `js/register.js` and `js/login.js`.
 - **HTML Forms**: 
   - The login and registration forms can be found in the `pages/` directory.
 
