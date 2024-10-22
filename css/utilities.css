@@ -272,3 +272,9 @@
 .underline {
     text-decoration: underline;
 }
+
+
+.w-full {
+    width: 100% !important;
+    max-width: 100% !important;
+}

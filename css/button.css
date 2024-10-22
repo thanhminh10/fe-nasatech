@@ -4,6 +4,8 @@
 
 .btn-login {
     cursor: pointer;
+    text-decoration: none;
+    color: white;
 }
 .btn-back {
     text-decoration: none;
@@ -76,15 +78,23 @@
 }
 
 .btn-primary {
-max-width: 172px;
-  height: 40px;
-  padding: 10px 14px;
-  gap: 8px;
-  border: none;
-  border-radius: 8px;
-  background-color:  var(--Colors-state-Information-base);
-  color: white;
-}
+    max-width: 172px;
+    height: 40px;
+    padding: 10px 14px;
+    gap: 8px;
+    border: none;
+    border-radius: 8px;
+    background-color: var(--Colors-state-Information-base); /* Original color */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth background and slight scale on hover */
+  }
+  
+  .btn-primary:hover {
+    background-color: rgba(0, 123, 255, 0.9); /* Subtle color change, adjust for your theme */
+    transform: scale(1.02); /* Slight increase in size on hover */
+  }
+  
 
 .btn-view-shop {
     border: 1px solid var(--Colors-state-stroke-soft-200)
