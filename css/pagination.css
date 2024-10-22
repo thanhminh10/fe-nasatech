@@ -4,7 +4,7 @@
   }
   
   .pagination-container button {
-    border: 1px solid #F3F4F6;
+    border: 1px solid var(--Colors-state-stroke-soft-200);
     background-color: transparent;
     padding: 6px 10px;
     cursor: pointer;
@@ -29,7 +29,7 @@
   }
   
   .pagination-container button:hover:not(.active-page):not(.dots-item) {
-    background-color: #F3F4F6;
+    background-color: #F3F4F6
   }
   
   .pagination-container button:disabled {

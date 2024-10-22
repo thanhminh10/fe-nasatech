@@ -55,7 +55,7 @@
     min-width: 200px;
     justify-content: center;
     align-items: center;
-    background-color: #0D121C;
+    background-color: var(--Colors-state-text-strong-950);
     color: white;
 }
 .btn-primary, .btn-outline {
@@ -69,10 +69,10 @@
   height: 40px;
   padding: 10px 14px;
   gap: 8px;
-  border: 1px solid #2E90FA;
+  border: 1px solid var(--Colors-state-Information-base);
   border-radius: 8px;
   background-color:  #B2DDFF80;
-  color: #2E90FA;
+  color: var(--Colors-state-Information-base);
 }
 
 .btn-primary {
@@ -82,6 +82,10 @@ max-width: 172px;
   gap: 8px;
   border: none;
   border-radius: 8px;
-  background-color:  #2E90FA;
+  background-color:  var(--Colors-state-Information-base);
   color: white;
+}
+
+.btn-view-shop {
+    border: 1px solid var(--Colors-state-stroke-soft-200)
 }

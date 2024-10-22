@@ -6,7 +6,7 @@ header {
     width: 100%;
 }
 .header_top {
-    background-color: #0D121C;
+    background-color: var(--Colors-state-text-strong-950);
     display: flex;
     color: white;
     justify-content: space-between;
@@ -15,7 +15,7 @@ header {
     height: 32px;
 }
 .header_top--wrapper {
-    background-color: #0D121C;
+    background-color: var(--Colors-state-text-strong-950);
     color: white;
     font-size: 12px;
     line-height: 16px;
@@ -53,9 +53,9 @@ header {
     width: 524px;
     height: 36px;
     padding: 8px 20px;
-    background-color: #F3F4F6; /* Màu nền */
-    border-radius: 8px; /* Điều chỉnh border-radius tùy theo var(--spacing-md) */
-    border: 1px solid #F3F4F6; /* Chỉ viền dưới */
+    background-color: var(--Colors-state-stroke-soft-200); 
+    border-radius: 8px; 
+    border: 1px solid var(--Colors-state-stroke-soft-200);
     display: flex;
     align-items: center;
     gap: 8px;
@@ -68,7 +68,7 @@ header {
     border: none;
     outline: none;
     padding: 0;
-    background-color: #F3F4F6;
+    background-color: var(--Colors-state-stroke-soft-200);
     opacity: 1; /* Đảm bảo hiển thị */
     font-size: 14px;
 }
@@ -101,7 +101,7 @@ header nav ul li a {
     padding: 2px 4px; 
     background-color: #FFFFFF; 
     border-radius: 4px;
-    border: 1px solid #F3F4F6; 
+    border: 1px solid var(--Colors-state-stroke-soft-200);
     display: flex;
     align-items: center;
     gap: 8px;
@@ -112,7 +112,7 @@ header nav ul li a {
     font-size: 12px;
     line-height: 16px;
     font-weight: 400;
-    color: #9DA4AE;
+    color: var(--Colors-state-text-soft-400);
 }
 
 
@@ -136,7 +136,7 @@ header nav ul li a {
     padding: 12px;
     display: flex;
     align-items: center;
-    color: #0D121C;
+    color: var(--Colors-state-text-strong-950);
     gap: 8px;
 }
 

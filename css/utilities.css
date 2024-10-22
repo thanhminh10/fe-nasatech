@@ -6,6 +6,17 @@
     font-family: 'Noto Sans', sans-serif;
 }
 
+:root {
+    --Colors-state-Blue-light-lighter: #F0F9FF;
+    --Colors-state-Information-base: #2E90FA;
+    --Colors-state-error-base: #F04438;
+    --Warning-50:#FEDF89;
+    --Warning-500:#F79009;
+    --Colors-state-text-strong-950:#0D121C;
+    --Colors-state-text-soft-400:#9DA4AE;
+    --Colors-state-stroke-soft-200:#F3F4F6;
+}
+
 /* Container */
 .container {
     width: 100%;
@@ -24,6 +35,7 @@
     justify-content: center;
     align-items: center;
 }
+
 .items-center {
     align-items: center;
 }
@@ -63,9 +75,11 @@
 .p-0 {
     padding: 0;
 }
+
 .px-1 {
     padding: 0 .5rem;
 }
+
 .pt-1 {
     padding-top: 1rem;
 }
@@ -81,10 +95,12 @@
 .pb-2 {
     padding-bottom: 2rem;
 }
+
 .py-9 {
     padding-top: 32px;
     padding-bottom: 32px;
 }
+
 .pb-0 {
     padding-bottom: 0;
 }
@@ -151,32 +167,40 @@
 .gap-2 {
     gap: 8px;
 }
+
 /* Gap Utilities */
 .gap-1 {
-    gap: 4px; /* Khoảng cách 4px */
+    gap: 4px;
+    /* Khoảng cách 4px */
 }
 
 .gap-2 {
-    gap: 8px; /* Khoảng cách 8px */
+    gap: 8px;
+    /* Khoảng cách 8px */
 }
+
 .gap-10 {
-    gap:10px
+    gap: 10px
 }
 
 .gap-3 {
-    gap: 12px; /* Khoảng cách 12px */
+    gap: 12px;
+    /* Khoảng cách 12px */
 }
 
 .gap-4 {
-    gap: 16px; /* Khoảng cách 16px */
+    gap: 16px;
+    /* Khoảng cách 16px */
 }
 
 .gap-5 {
-    gap: 20px; /* Khoảng cách 20px */
+    gap: 20px;
+    /* Khoảng cách 20px */
 }
 
 .gap-6 {
-    gap: 24px; /* Khoảng cách 20px */
+    gap: 24px;
+    /* Khoảng cách 20px */
 }
 
 .gap-8 {
@@ -186,54 +210,65 @@
 /* Flexbox Gap Utility */
 .flex-gap-1 {
     display: flex;
-    gap: 4px; /* Khoảng cách 4px cho flex */
+    gap: 4px;
+    /* Khoảng cách 4px cho flex */
 }
 
 .flex-gap-2 {
     display: flex;
-    gap: 8px; /* Khoảng cách 8px cho flex */
+    gap: 8px;
+    /* Khoảng cách 8px cho flex */
 }
 
 .flex-gap-3 {
     display: flex;
-    gap: 12px; /* Khoảng cách 12px cho flex */
+    gap: 12px;
+    /* Khoảng cách 12px cho flex */
 }
 
 .flex-gap-4 {
     display: flex;
-    gap: 16px; /* Khoảng cách 16px cho flex */
+    gap: 16px;
+    /* Khoảng cách 16px cho flex */
 }
 
 .flex-gap-5 {
     display: flex;
-    gap: 20px; /* Khoảng cách 20px cho flex */
+    gap: 20px;
+    /* Khoảng cách 20px cho flex */
 }
 
 /* Grid Gap Utility */
 .grid-gap-1 {
     display: grid;
-    gap: 4px; /* Khoảng cách 4px cho grid */
+    gap: 4px;
+    /* Khoảng cách 4px cho grid */
 }
 
 .grid-gap-2 {
     display: grid;
-    gap: 8px; /* Khoảng cách 8px cho grid */
+    gap: 8px;
+    /* Khoảng cách 8px cho grid */
 }
 
 .grid-gap-3 {
     display: grid;
-    gap: 12px; /* Khoảng cách 12px cho grid */
+    gap: 12px;
+    /* Khoảng cách 12px cho grid */
 }
 
 .grid-gap-4 {
     display: grid;
-    gap: 16px; /* Khoảng cách 16px cho grid */
+    gap: 16px;
+    /* Khoảng cách 16px cho grid */
 }
 
 .grid-gap-5 {
     display: grid;
-    gap: 20px; /* Khoảng cách 20px cho grid */
+    gap: 20px;
+    /* Khoảng cách 20px cho grid */
 }
+
 .underline {
     text-decoration: underline;
 }

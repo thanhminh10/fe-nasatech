@@ -48,7 +48,7 @@
     font-size: 16px;
     font-weight: 600;
     line-height: 24px;
-    color: #0D121C;
+    color: var(--Colors-state-text-strong-950);
 
 }
 
@@ -56,7 +56,7 @@
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
-    color: #0D121C;
+    color: var(--Colors-state-text-strong-950);
 }
 
 .category-section {
@@ -86,7 +86,7 @@
 }
 
 .category-content .category-content__item2 {
-    border-top: #F3F4F6;
+    border-top: #F3F4F6
 }
 
 .category-cart {
@@ -115,7 +115,7 @@
     padding: 32px 24px 24px 24px;
     gap: 48px;
     border-radius: 4px;
-    background-color: #F0F9FF;
+    background-color: var(--Colors-state-Blue-light-lighter);
 }
 
 .sales-content-item {
@@ -125,7 +125,7 @@
 }
 
 .flash-sale__title {
-    color: #F04438;
+    color: var(--Colors-state-error-base);
     font-size: 24px;
     font-weight: 600;
     line-height: 32px;
@@ -142,7 +142,7 @@
     padding: 4px;
     gap: 10px;
     border-radius: 2px;
-    background-color: #F04438;
+    background-color: var(--Colors-state-error-base);
     color: #fff;
     border: none;
     cursor: pointer;
@@ -272,7 +272,7 @@
 
 .rating-group p {
     font-size: 14px;
-    color: #0D121C;
+    color: var(--Colors-state-text-strong-950);
     font-weight: 400;
     display: flex;
     align-items: center;
@@ -286,7 +286,7 @@
 }
 
 .detail-price {
-    background-color: #F0F9FF;
+    background-color: var(--Colors-state-Blue-light-lighter);
     padding: 10px 12px;
     display: flex;
     gap: 16px;
@@ -342,8 +342,8 @@
 
 .voucher-group__list span {
     flex: 0 0 calc(33.33% - 16px);
-    background-color: #F0F9FF;
-    color: #2E90FA;
+    background-color: var(--Colors-state-Blue-light-lighter);
+    color: var(--Colors-state-Information-base);
     font-size: 12px;
     font-weight: 500;
     line-height: 16px;
@@ -355,7 +355,7 @@
 .style-group__list span {
     flex: 0 0 calc(33.33% - 12px);
     border: 1px solid #D2D6DB;
-    color: #9DA4AE;
+    color: var(--Colors-state-text-soft-400);
     font-size: 14px;
     font-weight: 400;
     line-height: 16px;
@@ -381,7 +381,7 @@
     text-align: center;
     /* Căn giữa nội dung trong span */
 
-    border-color: 1px solid #F3F4F6;
+    border-color: 1px solid #F3F4F6
 }
 
 .btn-decrement,
@@ -394,7 +394,7 @@
     height: 30px;
     cursor: pointer;
     font-size: 18px;
-    border: 1px solid #F3F4F6;
+    border: 1px solid #F3F4F6
 }
 
 /* Nếu bạn chỉ muốn bo tròn góc trên bên trái, sử dụng thuộc tính sau: */
@@ -465,9 +465,14 @@
     flex-direction: column;
     gap: 8px;
 }
+.shop-info__info h3 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
 
 .shop-info__info p {
-    color: #0D121C;
+    color: var(--Colors-state-text-strong-950);
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
@@ -490,9 +495,9 @@
     height: 44px;
     width: 100%;
     padding: 10px 12px;
-    background-color: #F0F9FF;
+    background-color: var(--Colors-state-Blue-light-lighter);
     font-size: 18px;
-    color: #0D121C;
+    color: var(--Colors-state-text-strong-950);
     font-weight: 600;
     line-height: 24px;
 }
@@ -502,7 +507,7 @@
     width: 100%;
     padding: 10px 12px;
     font-size: 18px;
-    color: #0D121C;
+    color: var(--Colors-state-text-strong-950);
     font-weight: 600;
     line-height: 24px;
     background-color: #FEF3F2;
@@ -519,7 +524,7 @@
 }
 
 .des-detail span {
-    color: #0D121C;
+    color: var(--Colors-state-text-strong-950);
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
@@ -568,7 +573,7 @@
     justify-content: center;
     align-items: center;
     gap: 4px;
-    border: 1px solid #F3F4F6;
+    border: 1px solid var(--Colors-state-stroke-soft-200);
     padding: 6px 14px;
     border-radius: 8px;
     cursor: pointer;
