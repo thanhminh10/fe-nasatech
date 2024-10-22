@@ -10,7 +10,7 @@ document.getElementById('loginForm').addEventListener('submit', async function(e
     if (response.status === 'success') {
       alert("Đăng nhập thành công")
       localStorage.setItem('token', response.token);  // Store JWT token
-      window.location.href = 'index.html';  // Redirect to home page
+      window.location.href = '/';  // Redirect to home page
     } else {
       alert('Login failed: ' + response.message);
     }
